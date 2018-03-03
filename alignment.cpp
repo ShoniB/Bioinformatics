@@ -1,6 +1,6 @@
 // Shondell Baijoo
 // Spring 17
-// Gene Alignment
+// 2D Gene Alignment
 
 #include <iostream>
 using namespace std;
