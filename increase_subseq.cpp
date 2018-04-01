@@ -1,5 +1,6 @@
 // Shondell Baijoo
 // Spring 2017
+// Longest Increasing Subsequence via Alignment 
 
 #include<iostream>
 
