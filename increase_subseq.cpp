@@ -8,7 +8,6 @@ using namespace std;
 int main()
 {
   string seq = "821657439";
-  // mergesort(seq); 
   string seq2 = "123456789"; 
   int n = seq.length()+1;  
   int score[n][n]; // seq * seq2
