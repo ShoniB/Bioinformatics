@@ -6,7 +6,6 @@
 #include <iostream> 
 using namespace std; 
 
-
 int dynamicOptimal(int g[], int n, int c[], int c_size);
 
 int main() 
