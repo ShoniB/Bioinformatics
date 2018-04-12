@@ -15,14 +15,14 @@ int main()
   int c_size =5; 
   int c[c_size] = {25,20,10,5,1};
   int n =40;
-  int g[n+1]; 
-  cout << dynamicOptimal(g, n, c, c_size) << endl; 
+  cout << dynamicOptimal(n, c, c_size) << endl; 
   return 0;
 }
 
 
-int dynamicOptimal(int g[], int n, int c[], int c_size)
+int dynamicOptimal(int n, int c[], int c_size)
 {
+   int g[n+1]; 
    g[0] = 0; // set base case (value 0 = 0 coins)
    for(int i=1; i<n+1; i++) 
    {
